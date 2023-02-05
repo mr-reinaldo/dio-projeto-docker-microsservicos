@@ -2,9 +2,7 @@
 
 ## Objetivo
 
-<p style="text-align: justify;">
-O objetivo deste repositório é demonstrar a utilização do Docker em um cenário de microsserviços. Para isso, foi criado um projeto de exemplo que consiste em uma aplicação web api simples, que possui um endpoint que retorna uma mensagem, um banco de dados MySQL (Não utilizado no exemplo) e um serviço uma interface web para gerenciamento do banco de dados MySQL, no caso o Adminer, também fou utilizado o nginx para fazer o proxy reverso para os serviços: web api e adminer.
-</p>
+O objetivo deste repositório é demonstrar a utilização do Docker em um cenário de microsserviços. Para isso, foi criado um projeto de exemplo que consiste em uma aplicação web api simples com FastApi, que possui um endpoint que retorna uma mensagem, um banco de dados MySQL (Não utilizado no exemplo) e uma aplicação web para gerenciamento do banco de dados MySQL, no caso o Adminer, também fou utilizado o nginx para fazer o proxy reverso para os serviços: web api e adminer.
 
 ## Pré-requisitos
 
